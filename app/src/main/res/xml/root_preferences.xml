@@ -1,0 +1,77 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory app:title="TRAVEL SETTINGS">
+
+<!--        <EditTextPreference-->
+<!--            app:key="mainLocation"-->
+<!--            app:title="Main Location"-->
+<!--            app:useSimpleSummaryProvider="true" />-->
+
+        <ListPreference
+            app:defaultValue="Journey"
+            app:entries="@array/kind_of_trip_values"
+            app:entryValues="@array/kind_of_trip_values"
+            app:key="kind_of_trip"
+            app:title="Kind of trip"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="3"
+            app:entries="@array/numOfPlaces_values"
+            app:entryValues="@array/numOfPlaces_values"
+            app:key="numOfPlacesPerDay"
+            app:title="Number of Places Per Day"
+            app:useSimpleSummaryProvider="true" />
+
+        <SeekBarPreference
+            android:key="kmRadius"
+            app:title="Radius from searched location (KM)"
+            app:showSeekBarValue="true"
+            app:min="2500"
+            android:max="15000"
+            android:defaultValue="150" />
+
+        <EditTextPreference
+            app:key="numOfDaysForTravel"
+            app:title="Number Of Days For Traveling"
+            android:inputType="number"
+            app:defaultValue="1"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="ACCESSIBILITY">
+        <SwitchPreferenceCompat
+            android:key="adaptedForAWheelchair"
+            app:title="Adapted For a Wheelchair"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="CARDS SETTINGS">
+
+        <ListPreference
+            app:defaultValue="Any"
+            app:entries="@array/rating_values"
+            app:entryValues="@array/rating_values"
+            app:key="ratingStar"
+            app:title="Rating"
+            app:useSimpleSummaryProvider="true" />
+
+        <MultiSelectListPreference
+            android:key="priceLevel"
+            app:title="Price Level"
+            android:entries="@array/price_level_entries"
+            android:entryValues="@array/price_level_entries"
+            android:defaultValue="@array/price_level_entries"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="VIEW SETTINGS">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="darkMode"
+            app:title="Dark Mode"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.beender.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_navigation_map_to_hotelSearchFragment"
+            app:destination="@id/hotelSearchFragment"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_navigation_map_to_navigation_archive"
+            app:destination="@id/navigation_archive"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_navigation_map_to_attractionPageFragment"
+            app:destination="@id/attractionPageFragment"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.beender.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_map"
+            app:destination="@id/navigation_map" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_hotelSearchFragment"
+            app:destination="@id/hotelSearchFragment" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_attractionPageFragment"
+            app:destination="@id/attractionPageFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.beender.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_archive"
+        android:name="com.example.beender.ArchiveFragment"
+        android:label="Archive"
+        tools:layout="@layout/fragment_archive" >
+        <action
+            android:id="@+id/action_navigation_archive_to_navigation_map"
+            app:destination="@id/navigation_map"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/hotelSearchFragment"
+        android:name="com.example.beender.HotelSearchFragment"
+        android:label="HotelSearchFragment" >
+        <action
+            android:id="@+id/action_hotelSearchFragment_to_navigation_map"
+            app:destination="@id/navigation_map"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_hotelSearchFragment_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/attractionPageFragment"
+        android:name="com.example.beender.AttractionPage"
+        tools:layout="@layout/fragment_attraction_page">
+        <argument
+            android:name="attraction"
+            app:argType="com.example.beender.model.ItemModel" />
+
+    </fragment>
+
+</navigation>
