@@ -22,17 +22,18 @@ After registration, you’ll automatically be logged in and directed to the main
 
 Before you start using the app, first head over the preferences screen by pressing the cog icon in the bottom menu.
 
-<div style="overflow: auto;">
-  <img src="pics/Picture3.png" style="width:25%; float: left; margin-right: 10px;">
-  <p style="margin-left: 110px;">On this screen you can set your preferences how you like.
+<p align="left">
+  <img src="pics/Picture3.png" alt="Picture3" style="width:25%;>
+</p>
+
+On this screen you can set your preferences how you like.
 Make sure to choose between a “Journey” or “Star” type trip, as it changes how you plan your trip.
 
 Journey: A journey trip is a simple A -> B type of a route. You select an initial destination, and go through waypoints until you end in your last destination. This type of a trip is suited for users that plan to be on the move and visit many different places throughout the trip.
 
 Star: A star trip starts at a hotel, and branches out to different routes that are separated by days. Each day you’ll visit a few destinations and return to the hotel to end the day. This type of a trip is suited for users who plan to stay around the same area and get to experience a specific place, like a city.
-For a star type trip, you need to input the length of your trip in days in the preferences screen.</p>
 
-</div>
+For a star type trip, you need to input the length of your trip in days in the preferences screen.
 
 ### Dashboard
 
