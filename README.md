@@ -12,8 +12,8 @@ First register a new account using a full name, email, and password.
 Notes: Email is required to be in a proper format (example@mail.com), and the password has to be at least 6 characters long.
 
 <div style="display:flex;">
-  <img src="pics/Picture1.png" style="width:50%;"/>
-  <img src="pics/Picture2.png" style="width:50%;"/>
+  <img src="pics/Picture1.png" style="width:25%;"/>
+  <img src="pics/Picture2.png" style="width:25%;"/>
 </div>
 
 After registration, you’ll automatically be logged in and directed to the main Dashboard.
@@ -25,7 +25,7 @@ Before you start using the app, first head over the preferences screen by pressi
 On this screen you can set your preferences how you like.
 Make sure to choose between a “Journey” or “Star” type trip, as it changes how you plan your trip.
 
-<img src="pics/Picture3.png" style="width:50%;"/>
+<img src="pics/Picture3.png" style="width:25%;"/>
 
 Journey: A journey trip is a simple A -> B type of a route. You select an initial destination, and go through waypoints until you end in your last destination. This type of a trip is suited for users that plan to be on the move and visit many different places throughout the trip.
 
@@ -40,8 +40,8 @@ First, click on the search bar above, and type in the place you wish to travel t
 Note: For the best results, you should type in the name of a city, not a country.
 
 <div style="display:flex;">
-  <img src="pics/Picture4.png" style="width:50%;"/>
-  <img src="pics/Picture5.png" style="width:50%;"/>
+  <img src="pics/Picture4.png" style="width:25%;"/>
+  <img src="pics/Picture5.png" style="width:25%;"/>
 </div>
 
 After typing in the place name, select one of the suggestions given by Google.
@@ -54,7 +54,7 @@ To know more about each destination, simply click on the card and you’ll be di
 
 If you like a certain card and you want to add it to your trip, swipe right and it will automatically be displayed on the Map screen. If you don’t like a card, swipe it to the left.
 
-<img src="pics/Picture6.png" style="width:50%;"/>
+<img src="pics/Picture6.png" style="width:25%;"/>
 
 Journey vs Star
 In a journey type trip, you have a “Finish” button below the cards. Clicking on it will end your trip planning process and direct you to the Map screen, where you can see your route.
@@ -73,8 +73,8 @@ In a Journey trip, you have a single route that has a start and an end.
 In a Star trip, you have multiple routes that have different colors. By default all the routes are displayed together. But you have the option to select a specific day to display from the drop down list at the bottom of the screen.
 
 <div style="display:flex;">
-  <img src="pics/Picture7.png" style="width:50%;"/>
-  <img src="pics/Picture8.png" style="width:50%;"/>
+  <img src="pics/Picture7.png" style="width:25%;"/>
+  <img src="pics/Picture8.png" style="width:25%;"/>
 </div>
 
 ### Marker Options
@@ -83,7 +83,7 @@ When clicking on a marker in the Map screen, you are presented with a few option
 
 Remove marker: will remove that place from your trip, and recalculate the route again.
 
-<img src="pics/Picture9.png" style="width:50%;"/>
+<img src="pics/Picture9.png" style="width:25%;"/>
 
 Find nearby hotel: will search for hotels near that marker. You will be directed to another card-swiping screen, where you can choose a hotel that you’d like.
 After swiping right on a hotel, it will be added to your trip, and the route will be recalculated again.
@@ -97,7 +97,7 @@ Clicking the delete icon will remove the archived trip from the database.
 Clicking on the image thumbnail will load the archive to the Map screen.
 After loading an archive to the map, you can make any edits as you like, such as removing markers, or adding hotels near markers. After finishing with the edits, you can click on the round green Save button on the bottom of the screen which will save all your edits.
 
-<img src="pics/Picture10.png" style="width:50%;"/>
+<img src="pics/Picture10.png" style="width:25%;"/>
 
 The archives are saved in our cloud database. Meaning that you can view them from any device you want, as long as you login to your account where you saved those archives.
 
